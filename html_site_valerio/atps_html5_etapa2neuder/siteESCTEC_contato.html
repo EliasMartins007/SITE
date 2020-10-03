@@ -1,0 +1,93 @@
+﻿ <!DOCTYPE HTML>
+     <html lang="pt-br">
+        <head>                                 <!--inicio cabeçario-->
+        <link rel="stylesheet" href="estilo.css">
+        <title>ESCTEC/CONTATO</title>
+        <meta charset="UTF-8">
+     </head>  <!--fim cabeçario-->
+ <body>   <!--inicio corpo-->
+    <header>
+     <!--logo-->
+     <img src="logo_teste.jpg">              <!--adição logo da empresa-->
+    </header>
+   
+  <nav>
+		<ul class = "menu">
+			<li><a href="siteESCTEC.html">Home</a></li>
+ 			<li class="limpar"> <a href=siteESCTEC_A_EMPRESA.html>A EMPRESA</a>
+     				<ul>
+				<li><a href="siteESCTEC_A_EMPRESA_MISSAO.html">Missão</a></li>
+				<li><a href="siteESCTEC_A_EMPRESA_VISAO.html">Visão</a></li>
+				<li><a href="siteESCTEC_A_EMPRESA_VALORES.html">Valores</a></li>			
+				</ul>
+			 </li>
+				<li class="limpar"><a href=siteESCTEC_produtos.html onclick="alert('confira nosssos 					lançamentos!!!')">PRODUTOS</a> 
+            				<ul>  
+			<li><a href="siteESCTEC_PRODUTOS_MESAS.html">Mesas</a></li>
+			<li><a href="siteESCTEC_PRODUTOS_CADEIRAS.html">Cadeiras</a></li>
+			<li><a heref="siteESCTEC_PRODUTOS_DIVERSOS.html">Diversos</a></li>
+            				</ul>	
+        			</li>
+                                  <li class="limpar"><a href=siteESCTEC_PEDIDOS.html>PEDIDOS</a></li>   				 <!--menu-->
+                                  
+
+   </nav>
+	
+
+
+ 
+
+       <article >
+         <section id= "ajuste">
+          <h1 id="h1_TituloPagina">Contato</h1>
+                                        <!--inicio do formulario-->
+    <form method="post" class="formcontatos">
+      <fieldset>
+       <p>* Nome <input type="text" placeholder="digite seu nome"></p>
+       <p>* Empresa<input type="text" placeholder="digite nome da empresa"></p>
+       <p>* Cidade<input type="text" placeholder="digite sua cidade"></p>
+       <p>* Telefone<input type="text" placeholder="digite seu telefone"></p>
+       <p>* Email<input type="text" placeholder="digite seu Email"></p>
+
+   <label>* Departamento para contato</label> <!-- adição componente e opções-->
+    <select>
+     <option>pessoal</option>
+     <option>diretoria</option>
+    </select>
+
+<br>                                <!--duvida quanto a usar p ou br-->
+<br>
+ Como conheceu a ESCTEC ?
+ <p>
+  <input type="checkbox">Indicação<br>
+  <input type="checkbox">Email   
+<input type="checkbox">Buscador<br></p>
+
+<p><label>Mensagem</label>               <!--adição campo mensagem-->
+<textarea row="5"cols="20"></textarea>
+</p>
+<input type="submit" value="Enviar" class="submit">   <!--adição botão enviar-->
+
+<input type="reset" value="Limpar" class="submit">    <!--adição botão limpar-->
+</fieldset>
+</form>
+
+
+		</article>
+   <!--rodapé-->
+   <footer id="footer_contato"><hr></hr>&copy2017 contato liguexx-xxxxx-xxxx
+     <address>EMAIL esctec@gmail.com
+     </address>
+    </footer>
+
+	<script language="javascript">
+         <!--
+
+
+            alert("preencher campos obrigarórios");
+ 
+         //-->
+
+	</script>
+ 	</body>                                   <!--fim do corpo-->
+ </html>
